@@ -32,6 +32,7 @@ Save and load your favorite physics settings using three dedicated slots. A pre-
 2. Click the **"→ CSV"** button in the HUD.
 3. The file is saved to `OpenplanetNext/PluginStorage/FPVDrone/trajectory.csv`.
 4. Use [FPV Clip](https://utils.tmtas.exchange/fpvclip.html) to convert the data for use in the Trackmania MediaTracker.
+5. Move the downloaded `.clip` file to your Replay folder, then open the Replay Editor in the Creation menu, select an existing replay on the map, and click **Import a Clip** at the bottom.
 
 ## Configuration
 
