@@ -17,43 +17,43 @@
 // ── RÉGLAGES (persistés dans physics.txt, UI dans RenderSettings) ──
 
 bool  S_Enabled        = true;
-float S_Thrust         = 246.0f;
+float S_Thrust         = 94.0f;
 float S_TiltRate       = 10.0f;
 float S_YawRate        = 10.0f;
-float S_AngInertia     = 0.08f;
-float S_CameraTilt     = -54.0f;
+float S_AngInertia     = 0.0f;
+float S_CameraTilt     = -63.0f;
 bool  S_VisualRoll     = true;
-float S_Drag           = 0.024f;
-float S_DragY          = 0.032f;
+float S_Drag           = 0.016f;
+float S_DragY          = 0.023f;
 float S_QuadDrag       = 0.0f;
 float S_QuadDragY      = 0.0f;
 bool  S_GravityEnabled = true;
-float S_Gravity        = 50.0f;
+float S_Gravity        = 16.0f;
 float S_Deadzone       = 0.0f;
 bool  S_UseMinHeight   = true;
-float S_MinHeight      = 9.0f;
+float S_MinHeight      = 2.0f;
 float S_ThrottleMax    = 1.0f;
-float S_ThrottleCurve  = 1.0f;
+float S_ThrottleCurve  = 2.0f;
 float S_MinThrottlePct = 0.0f;
-float S_MotorTau       = 0.02f;
-float S_GyroCoeff      = 1.0f;
+float S_MotorTau       = 0.15f;
+float S_GyroCoeff      = 5.0f;
 
 // ── OVERLAY INPUTS ───────────────────────────────────────────
-int S_OverlayX = 16;
-int S_OverlayY = 720;
+int S_OverlayX = 21;
+int S_OverlayY = 751;
 
 // Esthétique overlay (persistés dans misc.txt, configurables dans l'onglet Misc)
 bool  S_ShowInputOverlay = true;
 bool  g_ShowLiveValues   = false;
-float g_OvSz          = 72.0f;
-float g_OvGap         = 10.0f;
-float g_OvBgAlpha     = 0.72f;
-float g_OvBorderAlpha = 0.45f;
+float g_OvSz          = 150.0f;
+float g_OvGap         = 13.0f;
+float g_OvBgAlpha     = 0.71f;
+float g_OvBorderAlpha = 0.36f;
 float g_OvCrossAlpha  = 0.22f;
-float g_OvDotSize     = 4.5f;
-float g_OvDotR        = 1.0f;
+float g_OvDotSize     = 4.0f;
+float g_OvDotR        = 0.61f;
 float g_OvDotG        = 1.0f;
-float g_OvDotB        = 1.0f;
+float g_OvDotB        = 0.21f;
 
 // ── BINDS (persistés dans binds.txt, pas via [Setting]) ──────
 int S_RecPadBtn     = 6;  // R1
@@ -69,13 +69,13 @@ int S_RewindKey     = 0;  // None
 bool S_InvThrottle   = false;
 bool S_InvYaw        = false;
 bool S_InvPitch      = false;
-bool S_InvRoll       = false;
+bool S_InvRoll       = true;
 bool S_InvVisualRoll = false;
 
 // ── TRAJECTOIRE ───────────────────────────────────────────────
 bool S_Rec       = false;
 bool S_Play      = false;
-int S_KfFreq   = 20;  // Hz (keyframes per second)
+int S_KfFreq   = 9;   // Hz (keyframes per second)
 
 // ── ÉTAT PHYSIQUE ─────────────────────────────────────────────
 
